@@ -22,7 +22,7 @@ $ npm run generate
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
 
-##nuxt-juejin
+## nuxt-juejin
 ### 配置文件nuxt.config.js
 *head: 配置应用的meta信息*<br/>
 *loading: 进度条，可以自定义，加载组件可以放置于componnets*<br/>
@@ -62,7 +62,7 @@ $const axios = require('axios')
   }
 }
 ```
-###组件异步数据的预获取
+### 组件异步数据的预获取
 ```
 export default {
   asyncData ({ context, params }, callback) {
@@ -90,9 +90,9 @@ export default {
 }
 </script>
 ```
-###数据通信库axios
+### 数据通信库axios
 *axios在api中配置axios的baseURL，timeout以及GET，POST和DELETE方法等再导出*<br>
-###状态树vuex
+### 状态树vuex
 *nuxt内置引用了vuex，不需要额外安装，只需按照指定的格式去操作：*<br>
 ```
 import Vue from 'vue'
@@ -114,10 +114,10 @@ const store = () => new Vuex.Store({
 
 export default store
 ```
-###公共组件
+### 公共组件
 *如头部导航栏header组件，就引用在component文件里default.vue中，子组件显示<nuxt-child />*<br>
 
-###难点
+### 难点
 *服务端渲染nuxt相较于vue客户端渲染主要在于数据的获取过程，以及nuxt封装了很多插件，开发者不需要再去安装和配置，只需按指定的格式去应用*<br>
 *全局自定义事件directives：*<br>
 ```
