@@ -22,8 +22,8 @@ $ npm run generate
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
 
-# nuxt-juejin
-$/**************配置文件nuxt.config.js******************/
+#nuxt-juejin
+# **************配置文件nuxt.config.js******************
 #head: 配置应用的meta信息
 #loading: 进度条，可以自定义，加载组件可以放置于componnets
 #plugins: 插件配置，像element-ui，axios等
